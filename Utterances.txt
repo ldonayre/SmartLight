@@ -1,0 +1,31 @@
+BrightnessIntent set light {brightness} percent
+BrightnessIntent set light {brightness}
+BrightnessIntent light {brightness}
+BrightnessIntent {brightness}
+
+BrightnessIntent set  {brighter |brighterdimmer} 
+BrightnessIntent set  {dimmer |brighterdimmer} 
+BrightnessIntent set  {higher |brighterdimmer} 
+BrightnessIntent set  {lower |brighterdimmer} 
+
+SceneIntent play {sunrise |scene}
+SceneIntent play {sunset |scene}
+
+SceneIntent play {sunrise |scene} {amount} {minute |minutehour}
+SceneIntent play {sunrise |scene} {amount} {minutes |minutehour}
+SceneIntent play {sunrise |scene} {amount} {hour |minutehour}
+SceneIntent play {sunrise |scene} {amount} {hours |minutehour}
+
+SceneIntent play {sunset |scene} {amount} {minute |minutehour}
+SceneIntent play {sunset |scene} {amount} {minutes |minutehour}
+SceneIntent play {sunset |scene} {amount} {hour |minutehour}
+SceneIntent play {sunset |scene} {amount} {hours |minutehour}
+
+LightIntent turn {on |onoff} light
+LightIntent turn {off |onoff} light
+
+HelpIntent help
+HelpIntent prompt
+HelpIntent what is the command structure
+StopIntent stop
+CancelIntent cancel

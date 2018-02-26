@@ -1,0 +1,56 @@
+{
+  "intents": [
+    {
+      "slots": [
+        {
+          "name": "light",
+          "type": "LITERAL"
+        },
+        {
+          "name": "onoff",
+          "type": "LITERAL"
+        }
+      ],
+      "intent": "LightIntent"
+    },
+    {
+      "slots": [
+        {
+          "name": "scene",
+          "type": "LITERAL"
+        },
+        {
+          "name": "amount",
+          "type": "NUMBER"
+        },
+        {
+          "name": "minutehour",
+          "type": "LITERAL"
+        }
+      ],
+      "intent": "SceneIntent"
+    },
+    {
+      "slots": [
+        {
+          "name": "brighterdimmer",
+          "type": "LITERAL"
+        },
+        {
+          "name": "brightness",
+          "type": "NUMBER"
+        }
+      ],
+      "intent": "BrightnessIntent"
+    },
+    {
+      "intent": "HelpIntent"
+    },
+    {
+      "intent": "StopIntent"
+    },
+    {
+      "intent": "CancelIntent"
+    }
+  ]
+}
