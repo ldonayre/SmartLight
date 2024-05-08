@@ -29,6 +29,7 @@ git clone https://github.com/odelot/aws-sdk-arduino
 git clone https://github.com/Links2004/arduinoWebSockets
 
 Go to the "Paho MQTT for Arduino" site at https://projects.eclipse.org/projects/technology.paho/downloads
+
 scroll down and click on the link "Arduino client library 1.0.0".  This will download "arduino_1.0.0.zip".
 
 Note: you must still be in your arduino libraries dir)
@@ -36,3 +37,10 @@ Note: you must still be in your arduino libraries dir)
 unzip arduino_1.0.0.zip
 
 That's it. Start the Arduino IDE or stop and restart if it was running (the ide will not detect the new libs until restarted.)
+
+
+# Miscellaneous
+
+SDK for connecting to AWS IoT from a device using embedded C (not used here in this code/repo).  This SDK is only if you want to port to some piece of HW not currently supported.  In the case of the esp8266 it is not necessary (or possible due to the 8bit architecture), but also not necessary as AWS supports (since July? 2016) Websockets which "wrap"/transport MQTT.
+
+    https://github.com/aws/aws-iot-device-sdk-embedded-C.git
